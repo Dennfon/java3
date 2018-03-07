@@ -1,0 +1,28 @@
+
+
+
+CREATE TABLE students
+(
+name character(50),
+groupp character(50),
+age bigint,
+score bigint
+)
+WITH (
+OIDS=FALSE
+);
+ALTER TABLE students
+OWNER TO postgres;
+
+
+
+
+
+
+
+
+
+
+
+https://www.enterprisedb.com/download-postgresql-binaries
+http://mvnrepository.com/artifact/org.postgresql/postgresql/9.4-1200-jdbc41
